@@ -32,27 +32,45 @@ class Regalos : AppCompatActivity() {
 
     fun cargaRegalos(option: String?) {
         when(option){
-        "Peluches" -> {
-        regalos.add(Detalles(R.drawable.peluchemario, "$ 320"))
-        regalos.add(Detalles(R.drawable.pelucheminecraft, "$ 320"))
-        regalos.add(Detalles(R.drawable.peluchepeppa, "$ 290"))
-        regalos.add(Detalles(R.drawable.peluches, "$"))
-        regalos.add(Detalles(R.drawable.peluchesony, "$ 330"))
-        regalos.add(Detalles(R.drawable.peluchestich, "$ 280"))
-        regalos.add(Detalles(R.drawable.peluchevarios, "$ 195"))
-        }
-        regalos.add(Detalles(R.drawable.regaloazul, "$ 80"))
-        regalos.add(Detalles(R.drawable.regalobebe, "$ 290"))
-        regalos.add(Detalles(R.drawable.regalocajas, "$ 140"))
-        regalos.add(Detalles(R.drawable.regalocolores, "$ 85"))
-        regalos.add(Detalles(R.drawable.regalos, "$"))
-        regalos.add(Detalles(R.drawable.regalovarios, "$ 75"))
-
-        regalos.add(Detalles(R.drawable.tazaabuela, "$ 120"))
-        regalos.add(Detalles(R.drawable.tazalove, "$ 120"))
-        regalos.add(Detalles(R.drawable.tazaquiero, "$ 260"))
-        regalos.add(Detalles(R.drawable.tazas, "$ 280"))
-
+            "Detalles" -> {
+                regalos.add(Detalles(R.drawable.cumplebotanas, "280"))
+                regalos.add(Detalles(R.drawable.cumplecheve, "320"))
+                regalos.add(Detalles(R.drawable.cumpleescolar, "330"))
+                regalos.add(Detalles(R.drawable.cumplepaletas, "190"))
+                regalos.add(Detalles(R.drawable.cumplesnack, "150"))
+                regalos.add(Detalles(R.drawable.cumplevinos, "370"))
+            }
+            "Globos" -> {
+                regalos.add(Detalles(R.drawable.globoamor, "240"))
+                regalos.add(Detalles(R.drawable.globocumple, "820"))
+                regalos.add(Detalles(R.drawable.globofestejo, "260"))
+                regalos.add(Detalles(R.drawable.globonum, "760"))
+                regalos.add(Detalles(R.drawable.globoregalo, "450"))
+                regalos.add(Detalles(R.drawable.globos, "240"))
+            }
+            "Peluches" -> {
+                regalos.add(Detalles(R.drawable.peluchemario, "320"))
+                regalos.add(Detalles(R.drawable.pelucheminecraft, "320"))
+                regalos.add(Detalles(R.drawable.peluchepeppa, "290"))
+                regalos.add(Detalles(R.drawable.peluches, ""))
+                regalos.add(Detalles(R.drawable.peluchesony, "330"))
+                regalos.add(Detalles(R.drawable.peluchestich, "280"))
+                regalos.add(Detalles(R.drawable.peluchevarios, "195"))
+            }
+            "Regalos" -> {
+                regalos.add(Detalles(R.drawable.regaloazul, "80"))
+                regalos.add(Detalles(R.drawable.regalobebe, "290"))
+                regalos.add(Detalles(R.drawable.regalocajas, "140"))
+                regalos.add(Detalles(R.drawable.regalocolores, "85"))
+                regalos.add(Detalles(R.drawable.regalos, "$"))
+                regalos.add(Detalles(R.drawable.regalovarios, "75"))
+            }
+            "Tazas" -> {
+                regalos.add(Detalles(R.drawable.tazaabuela, "120"))
+                regalos.add(Detalles(R.drawable.tazalove, "120"))
+                regalos.add(Detalles(R.drawable.tazaquiero, "260"))
+                regalos.add(Detalles(R.drawable.tazas, "280"))
+            }
         }
     }
 
